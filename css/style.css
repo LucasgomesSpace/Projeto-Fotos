@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    height: 60px;
+    width: 99vw;
+    font-size: 1.1rem;
+    background-color: #911313;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    transition: color 1s;
+}
+
+
+nav ul li:hover {
+    color: #dfdfdf; 
+    font-style: oblique;
+}
+
+ul{
+    display: inline;
+}
+li{
+    display: block;
+    float: right;
+    width: 100px;
+}
+section{
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('../img/b63838fde6a7fc5b1df6d2834ebf60eb.jpg');
+    height: 99dvh;
+    background-size: 100% 100%;
+    color: beige;
+    display: flex;
+    gap:100px;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+.d1{
+    width: 200px;
+    text-align: center;
+}
+.d1 img {
+    width: 100%;
+    height: auto;
+}
+.d1 span{
+    margin-top: 10px;
+}
+.Event{
+    width: 300px;
+    text-align: center;
+}
+.Event img {
+    width: 100%;
+    height: 200px;
+    border-color: #ffffff;
+    border: 10px solid;
+    border-radius: 1rem;
+    
+}
+.imgsEv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 895px;
+    margin: 15px auto ;
+}
+.texto{
+    display: flex;
+    width: 450px;
+    display: inline;
+    padding: 25px;
+    font-weight: 400;
+}
+
+.btn{
+    background-color: #911313df;
+    color: #dfdfdf;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin:60px;
+    border: 10px solid;
+    border-color: #ec6b6b4c;
+
+}
+
+.container{
+    height: 500px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.ladodireito{
+    background-color: #911313;
+    width: 200px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-top: 50px;
+    align-items: start;
+    
+    
+}
+.maior{
+    background-color: rgba(65, 38, 91, 0.277);
+    width: 900px;
+    height: 200px;
+    margin-left: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+.menor1{
+    background-color: rgba(65, 38, 91, 0.277);
+    width: 900px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+.hovery{
+    text-decoration: none;
+}
+.hovery :hover{
+    background-color: grey;
+    text-decoration: none;
+}
+
